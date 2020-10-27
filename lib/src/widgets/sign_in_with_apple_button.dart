@@ -58,7 +58,7 @@ class SignInWithAppleButton extends StatelessWidget {
   Color get _backgroundColor {
     switch (style) {
       case SignInWithAppleButtonStyle.black:
-        return Colors.black;
+        return Colors.black54;
       case SignInWithAppleButtonStyle.white:
       case SignInWithAppleButtonStyle.whiteOutlined:
         return Colors.white;
