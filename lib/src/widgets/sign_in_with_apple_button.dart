@@ -107,7 +107,7 @@ class SignInWithAppleButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     // per Apple's guidelines
-    final fontSize = 14;
+    final fontSize = 14.0;
 
     final textWidget = Text(
       text,
